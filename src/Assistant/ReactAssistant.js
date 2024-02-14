@@ -1,7 +1,7 @@
 // Import necessary dependencies and styles
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import React, { useEffect, useState } from 'react';
-import "./Speeches.css"
+import "./ReactAssistant.css"
 import "./MediaQuery.css"
 import video1 from "../Videos/video1.mp4";
 
