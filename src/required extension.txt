@@ -1,0 +1,5 @@
+download npm for bootstrap icons
+import 'bootstrap-icons/font/bootstrap-icons.css';
+
+download npm for react-speech-recognition
+import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
