@@ -1,0 +1,131 @@
+@media only screen and (max-width: 767px) {
+    body {
+        background-color: rgb(247,248,253);
+    }
+
+    p{
+        color: black;
+    }
+    h4{
+        color: black;
+        font-size: 11px;
+    }
+    span{
+        color: black;
+    }
+    .heading>span {
+        font-size: 11px;
+        margin-left: 10%;
+        float: left;
+        display: flex;
+        align-items: center;
+    }
+    .heading{
+        background-color: aliceblue;
+        box-shadow: 1px 1px 10px rgb(185, 185, 185);
+    }
+
+    .heading button {
+        margin: 0;
+    }
+
+    input {
+        border-radius: 2px;
+        color: black;
+    }
+
+    .msgContainer {
+        width: 98%;
+        border-radius: 5px;
+        padding: 2%;
+        height: 15vh;
+    }
+
+    .msgOperation {
+        width: 100%;
+        flex-direction: row;
+        height: 5vh;
+    }
+    
+
+    button {
+        position: inherit;
+        background-color: transparent;
+        margin: 10%;
+    }
+
+    .inputMsg {
+        width: 88%;
+        margin-top: 1%;
+        border-radius: 2px;
+    }
+
+    .sendMsg {
+        display: flex;
+        margin: auto;
+        width: 98%;
+    }
+
+    .para{
+        display: none;
+    }
+    div.bottom_data{
+        background-image:none;
+        background-color: rgb(247,248,253);
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 20vh;
+    }
+    .msgContainer {
+        padding: 1%;
+        width: 90%;
+        /* backdrop-filter: blur(40px); */
+        /* box-shadow: inset 1px 10px 100px #ffffff2b; */
+}
+    .para1 {
+        display: block;
+        padding: 2%;
+        width: 98%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        text-align: left;
+        background-color: transparent;
+        /* backdrop-filter: blur(40px); */
+        margin-top: 2%;
+        height: 20vh;
+    }
+
+    i {
+        color: black;
+        border-radius: 50%;
+        width: 50px;
+        background-color: transparent;
+    }
+
+    .bi.bi-person-fill-gear {
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+    }
+
+    .bi.bi-robot {
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+    }
+
+    button:hover {
+        background-color: transparent;
+    }
+    button{
+        background-image: none;
+        color: black;
+    }
+    button i{
+        color: black;
+    }
+    .paraA::-webkit-scrollbar {
+        display: contents;
+      }
+}
